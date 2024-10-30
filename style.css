@@ -1,0 +1,235 @@
+body {
+  font-family: system-ui;
+}
+/* Contact bar styles */
+.navbar-top {
+  background-color: #003366; /* Blue background */
+  color: white;
+  padding: 8px 0;
+}
+.contact-info span {
+  color: white;
+  font-size: 14px;
+}
+.account-links .btn {
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+/* Main navbar styles */
+.navbar-brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #518fe2; /* Orange color for branding */
+}
+.navbar .nav-link {
+  color: black;
+  font-weight: bold;
+}
+.navbar .btn-primary {
+  background-color: #518fe2;
+  border: none;
+}
+.navbar .btn-outline-primary {
+  border-color: #518fe2;
+  color: #518fe2;
+}
+.navbar .nav-link:hover,
+.navbar .nav-link:focus,
+.navbar .dropdown-toggle:hover {
+  color: #518fe2;
+}
+.navbar .dropdown-menu .dropdown-item:hover {
+  background-color: #518fe2;
+  color: white;
+}
+
+.section-title {
+  color: #518fe2;
+}
+.product-card {
+  background: linear-gradient(180deg, #fff, #b6d4fa);
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.feature-title {
+  color: #518fe2;
+  font-weight: bold;
+}
+.learn-more {
+  color: #1e1e64;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.card-title {
+  color: #1a2e5b; /* Customize the color to match the example */
+  font-weight: bold;
+}
+.card-title::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #518fe2; /* Custom underline color */
+  margin-top: 5px;
+}
+.list-unstyled li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px; /* Space between list items */
+}
+.list-unstyled li::before {
+  content: "•"; /* Adds dot before each list item */
+  position: absolute;
+  left: 0;
+  color: #000; /* Color for the dot */
+  font-size: 1.2em; /* Size of the dot */
+  line-height: 1.2em; /* Vertical alignment for the dot */
+}
+
+.feature-icon {
+  background-color: #f0f3f9;
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  color: #2d3b71;
+  margin-bottom: 1rem;
+}
+.feature-title {
+  color: #2d3b71;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+.feature-description {
+  color: #6b7280;
+  line-height: 1.6;
+}
+.section-title {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-title span {
+  color: #518fe2;
+}
+
+.why-choose-heading span {
+  color: #518fe2;
+}
+.feature-list p {
+  margin-bottom: 1.2rem;
+}
+.feature-list p strong {
+  color: #34478c;
+}
+
+.btn-read-more {
+  background-color: #34478c;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  transition: background-color 0.3s;
+}
+.btn-read-more:hover {
+  background-color: #293b73;
+  color: white;
+}
+.btn-read-more::after {
+  content: "→";
+  margin-left: 10px;
+}
+.video-container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+.embed-responsive {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+.embed-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.footer-links {
+  padding: 40px 0;
+}
+
+.footer-links h4 {
+  color: #1e3777;
+  font-size: 18px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  color: #1e3777;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+  color: #1e3777;
+  position: relative;
+  padding-left: 20px; /* Space for the arrow */
+}
+
+.footer-links ul li::before {
+  content: "➤"; /* Unicode arrow */
+  position: absolute;
+  left: 0;
+  color: #1e3777; /* Arrow color */
+  font-size: 0.8em; /* Adjust size if needed */
+}
+
+.footer-links ul li a {
+  color: #1e3777;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links ul li a:hover {
+  color: #1e3777;
+}
+
+.footer-bottom {
+  background-color: #28315c;
+  padding: 15px 0;
+  color: #fff;
+}
+
+.footer-bottom a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.social-links a {
+  color: #1e3777;
+  margin-left: 15px;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.social-links a:hover {
+  color: #1e3777;
+}
